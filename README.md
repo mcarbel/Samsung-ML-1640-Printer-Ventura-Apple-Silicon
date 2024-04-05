@@ -38,3 +38,4 @@ sudo chown root:admin /Library/Printers/PPDs/Contents/Resources/Samsung\ ML-1640
 - Scroll down to the message "rastertoqpdl was blocked from use because it is not from an identified developer."
 - Accept the error message and click **Allow Anyway**
 - Try printing again and click **Open** when an error message appears
+- sudo codesign --force --deep -s - Foo.app
