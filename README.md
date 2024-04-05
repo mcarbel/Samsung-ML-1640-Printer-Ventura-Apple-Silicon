@@ -15,7 +15,7 @@ sudo cp -R Samsung /Library/Printers
 
 - copy the file ``Samsung ML-1640 Series.gz`` to /Library/Printers/PPDs/Contents/Resources/
 ````
-sudo cp -R Samsung ML-1640 Series.gz /Library/Printers/PPDs/Contents/Resources/
+sudo cp -R Samsung\ ML-1640\ Series.gz /Library/Printers/PPDs/Contents/Resources/
 ````
 
 - open a terminal and execute the following commands
