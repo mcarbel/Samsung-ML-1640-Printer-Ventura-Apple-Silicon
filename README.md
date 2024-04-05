@@ -10,14 +10,12 @@ git clone https://github.com/MTz12/Samsung-ML-1640-Printer-Ventura-Apple-Silicon
 - copy the ``Samsung`` folder to /Library/Printers/
 ````
 cd Samsung-ML-1640-Printer-Ventura-Apple-Silicon
-cp -R ./Samsung/ML-1640 /Library/Printers/Samsung
+sudo cp -R Samsung /Library/Printers
 ````
 
-- copy the file ``Samsung ML-1640 Series.gz`` to
+- copy the file ``Samsung ML-1640 Series.gz`` to /Library/Printers/PPDs/Contents/Resources/
 ````
-/Library/Printers/PPDs/Contents/Resources/
-
-cp -R ./Samsung/ML-1640 /Library/Printers/Samsung
+sudo cp -R Samsung ML-1640 Series.gz /Library/Printers/PPDs/Contents/Resources/
 ````
 
 - open a terminal and execute the following commands
